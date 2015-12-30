@@ -1,0 +1,28 @@
+.body-wrp {
+  width: 100%;
+  background-color: linen;
+}
+
+.body {
+  width: 72em;
+  margin: 0 auto;
+  background-color: #68BD62;
+  padding-left: 94px;
+  padding-top: 100px;
+}
+
+.body input {
+  width: 80%;
+  border: none;
+  
+}
+
+.body .output-wrp {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.body textarea {
+  width: 80%;
+  height: 40%;
+}
