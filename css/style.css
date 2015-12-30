@@ -1,28 +1,126 @@
-.body-wrp {
+.main-wrp {
   width: 100%;
-  background-color: linen;
+  background: url("../images/texture.jpg") repeat;
 }
 
-.body {
-  width: 72em;
+.body-wrp {
   margin: 0 auto;
-  background-color: #68BD62;
-  padding-left: 94px;
-  padding-top: 100px;
+  width: 960px;
+  height: auto;
+  font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.body input {
-  width: 80%;
-  border: none;
-  
+.header {
+  width: 100%;
+  background-color: #F2EDE7;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.body .output-wrp {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.header .img-wrp {
+  float: left;
+  width: 100px;
+  padding-left: 15px;
 }
 
-.body textarea {
-  width: 80%;
-  height: 40%;
+.header .img-wrp img {
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  float: left;
+  font-size: 42px;
+  padding: 40px 25px;
+  color: #000;
+}
+
+.content-wrp {
+  margin-top: 50px;
+  float: left;
+  width: 920px;
+  margin: 5px 5px 10px 0;
+  padding: 5px 20px 5px 20px;
+  background-color: #f2ede7;
+  /* curved border radius */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.content-wrp  .content {
+  width: 100%;
+  padding: 0;
+  margin: 10px 0;
+  background: #78BF40;
+}
+
+.content-wrp  .content .input-wrp, .output-wrp {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.content-wrp  .content  textarea {
+  height: 50px;
+  width: 450px;
+}
+/* footer */
+.footer-wrp {
+  width: 100%;
+  clear: both;
+  color: #000;
+  overflow: hidden;
+  padding-top: 10px;
+  background-color: #F2EDE7;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.footer-wrp .footer {
+  float: left;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.footer-wrp .footer .left-block {
+  float: left;
+  width: 450px;
+  padding-left: 15px;
+}
+
+.footer-wrp .footer .right-block {
+  float: left;
+  width: 450px;
+  padding-left: 20px;
+}
+
+.footer-wrp .footer .right-block p {
+  float: right;
+  padding-right: 15px;
+}
+
+.footer-wrp .footer a {
+  color: #999;
+}
+
+.footer-wrp .footer a:hover {
+  color: #23247D;
+  text-decoration: none;
+}
+
+/*Clear fix*/
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
 }
