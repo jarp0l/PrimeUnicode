@@ -35,7 +35,7 @@
   float: left;
   font-size: 42px;
   padding: 40px 25px;
-  color: #000;
+  color: #1E683A;
 }
 
 .content-wrp {
@@ -54,7 +54,7 @@
   width: 100%;
   padding: 0;
   margin: 10px 0;
-  background: #78BF40;
+  background: #1BAC4E;
 }
 
 .content-wrp  .content .input-wrp, .output-wrp {
