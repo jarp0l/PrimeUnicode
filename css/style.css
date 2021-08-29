@@ -67,6 +67,22 @@
   height: 50px;
   width: 450px;
 }
+
+.tips-wrp {
+  margin-top: 220px;
+  margin-bottom: 20px;
+  height: auto;
+  padding: 20px 10px 10px 20px;
+  background-color: #F2EDE7;
+  /* curved border radius */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.tips-wrp strong {
+  font-weight: bold;
+}
+
 /* footer */
 .footer-wrp {
   width: 100%;
