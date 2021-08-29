@@ -24,9 +24,31 @@
           </div>
           <div class="output-wrp">
             <textarea id="output" readonly></textarea>
+            <button onclick="copyToClipboard()">Copy to clipboard</button>
           </div>
         </div>
       </div>
+
+      <div class="tips-wrp">
+        <ul>
+                <li><strong>Some phonetically similar Nepali
+                                letters:</strong><br>
+        ta = त, Ta = ट, tha = थ, Tha = ठ, da = द, Da = ड, dha = ध, Dha = ढ, na =
+        न, Na = ण, sha = श, shha = ष</li>
+                <hr>
+                <li><strong>Some other special characters:</strong>
+                        <ul>
+                                <li>rr= र्‍ (as in garryo = गर्‍यो)</li>
+                                <li>chha = छ </li>
+                                <li>i = इ (as in miti = मिति) </li>
+                                <li>ii = ई (as in nepaalii =  नेपाली)</li>
+                                <li>^ = अनुस्वर (ं )</li>
+                                <li>* = चन्द्रबिन्दु (ँ )</li>
+                        </ul>
+                </li>
+        </ul>
+      </div>
+
       <div class="footer-wrp">
         <div class="footer">
           <div class="left-block">
@@ -46,5 +68,6 @@
   <script type="text/javascript" src="js/Unicode.js"></script>
   <script type="text/javascript" src="js/Operation.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/clipboard.js"></script>
 </body>
 </html>
