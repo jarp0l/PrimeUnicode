@@ -332,6 +332,8 @@ function Operation() {
 				that.output('ँ');
 			} else if (val == '^') {
 				that.output('ं');
+            } else if (val == '.'){
+                that.output('।');
 			} else {
 				that.output(val);
 			}
